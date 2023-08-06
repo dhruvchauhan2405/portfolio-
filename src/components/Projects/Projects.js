@@ -5,6 +5,9 @@ import Particle from "../Particle";
 
 import Genius from "../../Assets/Projects/Genuis.png";
 import ShopHive from "../../Assets/Projects/ShopHive.png";
+import PortFolio from "../../Assets/Projects/Portfolio.png";
+import WiseCare from "../../Assets/Projects/WiseCare.png";
+import ChatVibe from "../../Assets/Projects/ChatVibe.png";
 
 function Projects() {
   return (
@@ -32,7 +35,7 @@ function Projects() {
               imgPath={ShopHive}
               isBlog={false}
               title="ShopHive-Admin"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="The ShopHive-Admin project marks a significant stride in optimizing product management processes, elevating customer engagement, and enhancing operational efficiency. By revamping the existing system, this project achieved accelerated updates and enriched user experiences through seamless navigation and captivating multi-image displays."
               ghLink="https://github.com/dhruvchauhan2405/GuessingGame"
             />
           </Col>
@@ -42,25 +45,28 @@ function Projects() {
               imgPath={ShopHive}
               isBlog={false}
               title="ShopHive-Store"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="Customer Platform Development for Enhanced Engagement. As the driving force behind the development of the Customer Platform, this project propelled an impressive surge in customer engagement by revolutionizing user experiences through intuitive navigation and personalized billboards."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ShopHive}
+              imgPath={ChatVibe}
               isBlog={false}
-              title="Chatify"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              title="ChatVibe"
+              description="Designed a personal chat room like discord to share resources and hang out with friends using React.js and Firebase.
+              Added Google authentication and realtime communication among the users. 
+              Used ReactRouter to turn the application into Single Page Application
+              Application supports image sharing, emojis, and message deletion, elevating user communication and fostering seamless expression."
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ShopHive}
+              imgPath={WiseCare}
               isBlog={false}
               title="WiseCare"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
+              description="In the creation of the Health and Wellness Platform, I engineered a robust authentication system that guarantees secure access to user accounts. This platform encompasses a holistic approach to well-being, offering personalized diet plans and nutrition guidance for optimal health, an extensive library of exercises and yoga poses for physical well-being, and a dedicated meditation page for nurturing inner peace and mindfulness."
 
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
@@ -68,11 +74,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ShopHive}
+              imgPath={PortFolio}
               isBlog={false}
               title="Portfolio"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
+              description="Welcome to my personal portfolio, a curated collection of my work and projects that reflect my passion, dedication, and creative journey. Within these digital pages, you will discover a showcase of my accomplishments, endeavors, and endeavors that highlight my expertise and growth. "
               //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here
             />
