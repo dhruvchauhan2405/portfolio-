@@ -10,18 +10,18 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Dhruv Chauhan </span>
             from <span className="purple"> Chennai, India.</span>
-            <br />I am a pre-final year student pursuing B.Tech in Computer
-            Science in SRM Institute of Science and Technology.
+            <br />I am a final year student pursuing B.Tech in Computer Science
+            in SRM Institute of Science and Technology.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Content Creation
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <ImPointRight /> Productive Lifestyle
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
